@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vizwiz-fewshot"
+version = "1.0.2"
+description = "VizWiz-FewShot dataset API"
+readme = "README.md"
+authors = [{ name = "Alec Bell", email = "alexander.bell-1@colorado.edu" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["feed", "reader", "tutorial"]
+dependencies = [
+    "pillow",
+    "torch"
+]
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://github.com/alec-bell/vizwiz-fewshot"
